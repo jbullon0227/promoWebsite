@@ -1,0 +1,35 @@
+
+/*Everything between the *'s is a code comment
+ */
+
+
+
+body
+{
+    background-color: #00AB00; /*Show how to click the box and discuss hexadecimal*/
+    background-image: url("img/Ella.jpg");
+    /* show how to comment code the previous line out so that we can get rid of the green */
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+h4 /* this is called a selector*/
+{
+    color: aquamarine; /* This is the property: value */
+}
+
+
+
+#textEnhance /* use the # to style what is labeled with id= in html */
+{
+    color: limegreen;
+    background-image: linear-gradient(red, pink, yellow, orange);
+}
+
+
+
+
+
+

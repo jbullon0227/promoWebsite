@@ -1,0 +1,48 @@
+
+/*TABLE*/
+/* use the # because this is labeled as id="firstTable" in html */
+#firstTable
+{
+    border-style: dotted;
+    border-color: red;
+
+}
+
+
+
+/* NAVIGATION BAR */
+/* use . because this is labeled as class="topNav" */
+.topNav {
+    background-color: #333;
+    overflow: hidden; /* Addresses errors with sizing... occurs when we have elements within elements */
+}
+
+
+
+
+/* Style the LINKS inside the navigation bar */
+.topNav a {
+    float: middle;
+    color: #f2f2f2;
+    text-align: center;
+    line-height:30px;
+    padding: 18px 16px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+
+
+/* Change the color of links on HOVER */
+.topNav a:hover {
+    background-color: #da52dd;
+    color: black;
+}
+
+
+/* Add a color to the ACTIVE/CURRENT link...a link the moment it is clicked */
+.topNav a.active {
+    background-color: #4CAF50;
+    color: #1593ff;
+}
+
